@@ -177,3 +177,15 @@ Metabase's REST API. Every question ran with the expected row counts: 240 hourly
 9 model-health rows and 4 retention rows (`metabase/run_log.txt`). The instance then terminated itself.
 
 Not done: card images weren't captured, because the PNG preview endpoint used by the script returns 404 in v0.65.
+
+## Looker (LookML)
+
+`looker/` holds a LookML project for the same monitor:
+- `ad_analytics.model.lkml`: 4 explores.
+- `views/`: 4 views. CTR is a ratio of summed clicks to summed impressions, never an average of hourly rates.
+- `dashboards/ad_monitoring.dashboard.lookml`: a 7-tile LookML dashboard.
+
+`load_bigquery.sh` loads the tables into a BigQuery dataset, `ad_analytics`, for the `ad_analytics_bq` connection.
+
+All files parse with the `lkml` parser, and every field referenced by the dashboard resolves to a defined dimension or
+measure. Not yet done: the project hasn't been deployed or validated on a live Looker instance.
