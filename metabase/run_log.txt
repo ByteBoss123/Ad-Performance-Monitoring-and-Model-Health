@@ -1,0 +1,22 @@
+22:33:10 table hourly_monitor: 240 rows
+22:33:12 table creative_attribution: 18 rows
+22:33:13 table model_health: 9 rows
+22:33:14 table game_ab_summary: 4 rows
+22:34:31 metabase healthy, version v0.65.4.1
+22:34:53 database 2 added
+22:34:55 card 40 'Hourly CTR vs expected (prior-day same hour)': status=completed rows=240
+22:34:56 card 41 'Hourly impressions vs baseline': status=completed rows=240
+22:34:58 card 42 'Monitoring alerts (overdispersion-adjusted)': status=completed rows=14
+22:34:59 card 43 'Why CTR moved: creative cohort attribution': status=completed rows=18
+22:35:00 card 44 'CTR model AUC by retraining policy': status=completed rows=6
+22:35:02 card 45 'Calibration: predicted / actual CTR': status=completed rows=9
+22:35:03 card 46 'Game A/B test: D1 and D7 retention': status=completed rows=4
+22:35:05 dashboard 2 with 7 cards
+22:35:06 png card 40 failed: <HTTPError 404: 'Not Found'>
+22:35:07 png card 41 failed: <HTTPError 404: 'Not Found'>
+22:35:08 png card 42 failed: <HTTPError 404: 'Not Found'>
+22:35:09 png card 43 failed: <HTTPError 404: 'Not Found'>
+22:35:10 png card 44 failed: <HTTPError 404: 'Not Found'>
+22:35:11 png card 45 failed: <HTTPError 404: 'Not Found'>
+22:35:12 png card 46 failed: <HTTPError 404: 'Not Found'>
+22:35:15 DONE

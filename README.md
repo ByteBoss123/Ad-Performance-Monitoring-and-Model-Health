@@ -167,3 +167,13 @@ and Zynga. That's 88 company-quarters.
 - Acquisitions move both lines.
 - Q4 values exist only where companies tagged them as standalone quarters, so most series skip Q4.
 - AppLovin, Take-Two, Unity and Roblox were also fetched but left out of the publisher analysis: different business models.
+
+## Metabase dashboard
+
+`metabase/build_metabase_dashboard.py` builds the same monitor in Metabase. It ran on a temporary EC2 instance
+(Amazon Linux 2023, t3.large, `metabase/ec2_userdata.sh`) that cloned this repo, loaded the four monitoring tables into
+SQLite, started Metabase v0.65.4.1, and created the database, 7 native-SQL questions and the dashboard through
+Metabase's REST API. Every question ran with the expected row counts: 240 hourly rows, 14 alerts, 18 attribution rows,
+9 model-health rows and 4 retention rows (`metabase/run_log.txt`). The instance then terminated itself.
+
+Not done: card images weren't captured, because the PNG preview endpoint used by the script returns 404 in v0.65.
