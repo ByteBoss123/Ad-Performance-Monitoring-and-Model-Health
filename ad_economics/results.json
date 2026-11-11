@@ -1,0 +1,18 @@
+{
+  "source": "huggingface.co/datasets/criteo/criteo-attribution-dataset (official Criteo account), commit 904188a63cbad78bee43cd26ff5ee4ac77903986, file criteo_attribution_dataset.tsv.gz (653,015,824 bytes)",
+  "run": "AWS Lambda (python3.12, 3008 MB), us-east-1, 74.3 s, 2026-11-11",
+  "units_caveat": "cost and cpo are transformed prices per the dataset card, not real money; ratios are reported in the dataset's own units",
+  "rows": 16468027,
+  "campaigns": 675,
+  "clicks": 5947563,
+  "distinct_conversions": 435810,
+  "attributed_conversions": 236331,
+  "overall_return_on_spend_transformed_units": 4.108,
+  "overall_ecpm_transformed_units": 0.2933,
+  "campaigns_with_10k_plus_impressions": 346,
+  "their_share_of_spend": 0.8966,
+  "top_10pct_campaigns_share_of_spend": 0.5828,
+  "return_on_spend_p10_p50_p90_10k_plus": [1.981, 4.320, 7.710],
+  "ecpm_p10_p50_p90_10k_plus": [0.0878, 0.2331, 0.5457],
+  "pearson_r_ecpm_vs_return_10k_plus": -0.397
+}

@@ -1,0 +1,9 @@
+ctr_drop,detection_rate,trials,model
+0.1,0.045,200,binomial_only
+0.2,0.29,200,binomial_only
+0.3,0.625,200,binomial_only
+0.5,0.97,200,binomial_only
+0.1,0.035,200,overdispersion_adjusted
+0.2,0.11,200,overdispersion_adjusted
+0.3,0.33,200,overdispersion_adjusted
+0.5,0.825,200,overdispersion_adjusted

@@ -1,0 +1,117 @@
+{
+  "quality_checks": {
+    "raw_rows": 200000,
+    "fact_rows": 200000,
+    "duplicate_ids": 0,
+    "null_clicks": 0,
+    "non_binary_clicks": 0,
+    "distinct_hours": 240,
+    "first_hour": "2014-10-21 00:00:00",
+    "last_hour": "2014-10-30 23:00:00",
+    "overall_ctr": 0.16842,
+    "site_share": 0.639105,
+    "hourly_rollup_matches_fact": true,
+    "segment_rollup_matches_fact": true
+  },
+  "scorable_hours": 168,
+  "phi_ctr": 1.7409403233025829,
+  "volume_scale": 1.6427227488893623,
+  "holdout_hours": 96,
+  "holdout_ctr_flags_binomial_only": 10,
+  "holdout_ctr_flags_adjusted": 3,
+  "holdout_volume_flags_unscaled": 5,
+  "holdout_volume_flags_adjusted": 2,
+  "all_ctr_flags_binomial_only": 13,
+  "ctr_flags": [
+    {
+      "event_hour": "2014-10-25 08:00:00",
+      "impressions": "770",
+      "ctr": "0.21688311688311687",
+      "expected_ctr": "0.15851063829787235",
+      "z_ctr": "3.1157549834866085"
+    },
+    {
+      "event_hour": "2014-10-28 13:00:00",
+      "impressions": "2221",
+      "ctr": "0.13822602431337236",
+      "expected_ctr": "0.17634350526600054",
+      "z_ctr": "-3.1332864363610966"
+    },
+    {
+      "event_hour": "2014-10-28 14:00:00",
+      "impressions": "1923",
+      "ctr": "0.14092563702548103",
+      "expected_ctr": "0.18380579010856454",
+      "z_ctr": "-3.239589107375"
+    },
+    {
+      "event_hour": "2014-10-30 04:00:00",
+      "impressions": "1661",
+      "ctr": "0.11860325105358217",
+      "expected_ctr": "0.17157867760123013",
+      "z_ctr": "-3.9410175157026566"
+    }
+  ],
+  "volume_flags": [
+    {
+      "event_hour": "2014-10-24 04:00:00",
+      "impressions": "854",
+      "expected_impressions": "1291.0",
+      "z_volume": "-4.140723500895058"
+    },
+    {
+      "event_hour": "2014-10-24 05:00:00",
+      "impressions": "822",
+      "expected_impressions": "1343.0",
+      "z_volume": "-5.408134971662669"
+    },
+    {
+      "event_hour": "2014-10-24 16:00:00",
+      "impressions": "1228",
+      "expected_impressions": "898.9999999999998",
+      "z_volume": "3.7968558534459236"
+    },
+    {
+      "event_hour": "2014-10-24 19:00:00",
+      "impressions": "159",
+      "expected_impressions": "683.0",
+      "z_volume": "-3.155372674619705"
+    },
+    {
+      "event_hour": "2014-10-24 20:00:00",
+      "impressions": "118",
+      "expected_impressions": "701.9999999999998",
+      "z_volume": "-18.087667528408307"
+    },
+    {
+      "event_hour": "2014-10-24 21:00:00",
+      "impressions": "96",
+      "expected_impressions": "575.0000000000001",
+      "z_volume": "-7.6479484829295385"
+    },
+    {
+      "event_hour": "2014-10-24 22:00:00",
+      "impressions": "73",
+      "expected_impressions": "517.9999999999999",
+      "z_volume": "-15.834581372227419"
+    },
+    {
+      "event_hour": "2014-10-24 23:00:00",
+      "impressions": "130",
+      "expected_impressions": "430.99999999999983",
+      "z_volume": "-8.099363116351423"
+    },
+    {
+      "event_hour": "2014-10-28 21:00:00",
+      "impressions": "801",
+      "expected_impressions": "453.0000000000001",
+      "z_volume": "3.23364449599772"
+    },
+    {
+      "event_hour": "2014-10-29 03:00:00",
+      "impressions": "1158",
+      "expected_impressions": "615.351931824383",
+      "z_volume": "3.3787462339858227"
+    }
+  ]
+}

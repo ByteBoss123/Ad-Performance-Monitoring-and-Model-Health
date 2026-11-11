@@ -1,0 +1,25 @@
+{
+  "customers": 23570,
+  "holdout_days": 273,
+  "bgnbd_params": {
+    "r": 0.25162401142410395,
+    "alpha": 33.5226161922892,
+    "a": 0.7234330357288046,
+    "b": 2.1610869813723315
+  },
+  "gg_params": {
+    "p": 6.275358592836066,
+    "q": 3.624450210391096,
+    "v": 14.983688961951682
+  },
+  "total_actual_holdout_revenue": 776961.1300000001,
+  "total_predicted_holdout_revenue": 642339.8520939993,
+  "total_naive_holdout_revenue": 1119718.8163394616,
+  "aggregate_error_pct": -17.326642570394846,
+  "naive_aggregate_error_pct": 44.11516523863446,
+  "mae_model": 32.675453112629285,
+  "mae_naive": 42.31745452026237,
+  "spearman_pred_actual": 0.4208076306546957,
+  "top_decile_share_of_actual_revenue": 0.5156299131721042,
+  "freq_corr_gg_assumption": 0.08015358765910158
+}
